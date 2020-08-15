@@ -50,14 +50,14 @@ Theme Name: News
    
 }
  
-.timerClass{
+h3.wp-block-my-timer-timer{
    display: none;
 }
-.is-type-video{
-    
-    margin-top: 350px;
-    margin-left: 160px;
-    margin-right: 90px;
+.wp-block-video video{
+    border: 0;
+    margin: 15px;
+    min-width: 95vw;
+    height: 95vh;
 }
 
 /*wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio*/

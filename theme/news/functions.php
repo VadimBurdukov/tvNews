@@ -12,9 +12,6 @@
 
     }
     add_action('wp_enqueue_scripts', 'load_bs');
-
-
-
     /*
      *
      * Loading custom.css file
@@ -70,7 +67,7 @@
             'cur'
         ));
     }
-
+   // wp_enqueue_script('autoplay', get_template_directory_uri() .'/js/videoAutoplyay.js', array('jquery'));
 //Style for video block 
 /*
     add_filter( 'embed_defaults', 'bigger_embed_size' );

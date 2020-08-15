@@ -1,10 +1,10 @@
 <?php
 /**
- * Plugin Name: Test Plugin
- * Author: John Doe
+ * Plugin Name: Timer
+ * Author: Burdukov Vadim
  * Version: 1.0.0
  */
- 
+
 function loadTimerBlock() {
   wp_enqueue_script(
     'timer-block',
@@ -13,5 +13,5 @@ function loadTimerBlock() {
     true
   );
 }
-  
-add_action('enqueue_block_editor_assets', 'loadTimerBlock');
+
+add_action('enqueue_block_editor_assets', 'loadTimerBlock'); 
