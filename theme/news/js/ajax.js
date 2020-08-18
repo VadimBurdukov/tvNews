@@ -22,7 +22,7 @@ jQuery(document).ready(function($) {
             if (check != 0)
             {
                 ajaxTimer = parseInt(document.getElementsByClassName('wp-block-my-timer-timer')[0].innerHTML, 10);
-                defaultTimer = ajaxTimer;
+                defaultTimer = ajaxTimer * 1000;
             }
             else
             {
